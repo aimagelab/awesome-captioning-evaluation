@@ -26,7 +26,7 @@ We leverage publicly available codes and have designed a unified framework that 
 
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-[![Paper](https://img.shields.io/badge/Paper-arxiv.2503.12112-B31B1B.svg)](https://arxiv.org/abs/??)
+[![Paper](https://img.shields.io/badge/Paper-arxiv.2503.14604-B31B1B.svg)](https://arxiv.org/abs/2503.14604)
 </div>
 
 Please cite with the following BibTeX:
