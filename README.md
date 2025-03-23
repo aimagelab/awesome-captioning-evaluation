@@ -31,7 +31,7 @@ We leverage publicly available codes and have designed a unified framework that 
 
 Please cite with the following BibTeX:
 ```
-@inproceedings{sarto2025survey,
+@inproceedings{sarto2025image,
   title={{Image Captioning Evaluation in the Age of Multimodal LLMs: Challenges and Future Perspectives}},
   author={Sarto, Sara and Cornia, Marcella and Cucchiara, Rita},
   booktitle={arxiv}
