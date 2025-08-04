@@ -2,7 +2,7 @@
 This repository contains a curated list of research papers and resources focusing on image captioning evaluation.
 
 <p align="center">
-    <img src="taxonomy.png" width="620">
+    <img src="images/taxonomy.png" width="620">
 </p>
 
 
@@ -42,11 +42,11 @@ Please cite with the following BibTeX:
 
 
 <p align="center">
-    <img src="result.jpg" width="820">
+    <img src="images/result.jpg" width="820">
 </p>
 
 <p align="center">
-    <img src="qualitatives.png" width="820">
+    <img src="images/qualitatives.png" width="820">
 </p>
 
 # 📚 Table of Contents
