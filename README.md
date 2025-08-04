@@ -32,7 +32,7 @@ Checkpoint paths are managed via a configuration file (```config/model_paths.jso
 
 To run the evaluation, simply execute  ```python -u compute_all_metric.py```.
 
-You can specify which metrics to compute using the ```--compute_metric_type``` argument. Available options include: ```['standard', 'clip-score', 'pac-score', 'pac-score++']```. 
+You can specify which metrics to compute using the ```--compute_metric_type``` argument. Available options include: ```['standard', 'clip-score', 'pac-score', 'pac-score++', 'polos']```. 
 
 🔍 Note: The corresponding reference-based version of each metric (e.g., RefPAC for PAC) will always be computed automatically.
 
