@@ -28,7 +28,7 @@ After downloading, place all checkpoints inside the ```checkpoints/``` directory
 
 Checkpoint paths are managed via a configuration file (```config/model_paths.json```), allowing you to define custom locations for each model. The format has to be ```<metric_name>_<clip_model>```.
 
-## Compute Metrics
+### Compute Metrics
 
 To run the evaluation, simply execute  ```python -u compute_all_metric.py```.
 
