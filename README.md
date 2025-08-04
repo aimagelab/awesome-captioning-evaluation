@@ -6,8 +6,8 @@ This repository contains a curated list of research papers and resources focusin
 </p>
 
 
-❗ Latest Update: 18 March 2025.
-❗This repo is a work in progress. New updates coming soon, stay tuned!! :construction:
+❗ Latest Update: 4 August 2025.
+❗ This repo is a work in progress. New updates coming soon, stay tuned!! :construction:
 
 ## 👩‍💻 🔜 Code for Reproducing Metric Scores 
 
