@@ -13,7 +13,38 @@ This repository contains a curated list of research papers and resources focusin
 
 We leverage publicly available codes and have designed a unified framework that enables the reproduction of all metrics within a single repository.
 
-**🔜 Coming soon! 🔜**
+### Environment Setup
+
+Clone the repository and create your environment using the ```requirements.txt``` file. 
+
+🔍 Note: The requirements.txt file is included for convenience. This environment setup builds upon the [Polos repository](https://github.com/keio-smilab24/polos).
+We started from Polos and extended it by adding the necessary dependencies for our own evaluation framework.
+For full dependency details and background, please also refer to the original Polos repository.
+
+### Loading Models
+
+Model checkpoints for the various backbones used in this project can be downloaded from their respective official repositories.
+After downloading, place all checkpoints inside the ```checkpoints/``` directory at the root of this repository.
+
+Checkpoint paths are managed via a configuration file (```config/model_paths.json```), allowing you to define custom locations for each model. The format has to be ```<metric_name>_<clip_model>```.
+
+## Compute Metrics
+
+To run the evaluation, simply execute  ```python -u compute_all_metric.py```.
+
+You can specify which metrics to compute using the ```--compute_metric_type``` argument. Available options include: ```['standard', 'clip-score', 'pac-score', 'pac-score++']```. 
+
+🔍 Note: The corresponding reference-based version of each metric (e.g., RefPAC for PAC) will always be computed automatically.
+
+The default backbone used is the CLIP ViT-B-32 model. To use a different backcbone (_e.g._ OpenCLIP ViT-L/14 backbone) specify in the command input ```--clip_model open_clip_ViT-L/14```. 
+
+We provide a set of generated captions from various image captioning models in the ```test_captions/``` directory.
+These captions are evaluated on the COCO test split (5K samples).
+
+Additionally, we include the corresponding reference captions in ```test_captions/reference_captions.json```
+
+🔍 Note: To run evaluations involving image features (e.g., CLIP-based metrics), you will need the actual COCO images.
+Please download the COCO val2014 image set from the official COCO dataset site and ensure it's accessible during evaluation.
 
 ## 🔥🔥 Our Survey
 <div align="center">
