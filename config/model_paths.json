@@ -1,0 +1,4 @@
+{
+  "pac-score_ViT-B/32": "checkpoints/clip_ViT-B-32.pth",
+  "pac-score++_ViT-B/32": "checkpoints/PAC++_clip_ViT-B-32.pth"
+}
