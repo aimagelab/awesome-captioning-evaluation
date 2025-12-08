@@ -7,7 +7,8 @@ from utils.utils import prepare_json, get_metric
 
 ACCEPTED_METRIC_TYPES = [
     "clip-score", "pac-score", "pac-score++",
-    "polos", "standard", "bert-score", "bert-score++"
+    "polos", "standard", "bert-score", "bert-score++",
+    "umic-score"
 ]
 
 if __name__ == '__main__':
